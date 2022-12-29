@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         webView = WKWebView()
         webView.navigationDelegate = self
         self.view = webView
-        let loadURL = "https://www.google.co"
+        let loadURL = "https://www.youtube.com/"
         let url = URL(string: loadURL)!
         webView.load(URLRequest(url: url))
         activityIndicator.stopAnimating()
